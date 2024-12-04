@@ -1,0 +1,46 @@
+.tags-container {
+    width: 300px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 20px;
+    background-color: #fff; 
+    position: relative;
+    left: 1200px;
+    bottom: -150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tags-title {
+    margin-bottom: 40px;
+    font-size: 21px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+  
+  .tag-item {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    color: #ff0e47; 
+    font-size: 16px;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 10px 15px; 
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .active-tag {
+    background-color: #ff0066; 
+    color: #fff; 
+    border: none; 
+  }
+  

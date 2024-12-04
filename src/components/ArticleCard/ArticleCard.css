@@ -1,0 +1,292 @@
+.article-card {                                                          
+    max-width: 800px;                                         
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    margin-left: 400px;
+  }
+  
+  .article-title {
+    font-family: montserrat,  sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31px;
+    text-decoration: none solid rgb(0, 0, 0);
+    margin-bottom: 10px;                                                      
+    word-spacing: 0px;
+    color: #333
+  }
+  
+  .article-meta {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 13px;
+    color: #FF0E47;
+    margin-bottom: 20px;
+    line-height: 16px;
+  }
+  
+  .article-image {
+    width: 683px;
+    height: 360px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
+  .article-content {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    margin-bottom: 20px;
+    word-spacing: 0px;
+  }
+  
+  .read-more {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 15px;
+    color:#FF0E47;
+    text-decoration: none;
+    word-spacing: 0px;
+    line-height: 24px;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .article-card-half {
+    max-width: 400px; 
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    top: 1500px;
+    margin-left: 400px;
+  }
+  
+  .article-card-half .article-title {
+    font-size: 24px; 
+    color:#333;
+    margin-bottom: 10px;
+  }
+  
+  .article-card-half .article-meta {
+    margin-bottom: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 12px;
+    color: #FF0E47;
+  }
+  
+  .article-card-half .article-image {
+    max-width: 100%;
+    width: 321px;
+    height: 203px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half .article-content {
+    font-size: 14px; 
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half .read-more {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 15px;
+    color:#FF0E47;
+    text-decoration: none;
+  }
+  
+  .article-card-half .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  
+
+
+
+  .article-card-half-2 {
+    max-width: 400px; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    top: 1500px;
+    margin-left: 765px;
+  }
+  
+  .article-card-half-2 .article-title {
+    font-size: 24px; 
+    color:#333;
+    margin-bottom: 10px;
+  }
+  
+  .article-card-half-2 .article-meta {
+    margin-bottom: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 12px;
+    color: #FF0E47;
+  }
+  
+  .article-card-half-2 .article-image {
+    max-width: 100%;
+    width: 321px;
+    height: 170px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half-2 .article-content {
+    font-size: 14px; 
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half-2 .read-more {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 15px;
+    color:#FF0E47;
+    text-decoration: none;
+  }
+  
+  .article-card-half-2 .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  
+
+
+
+  .article-card-half-3 {
+    max-width: 400px; 
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    top: 2100px;
+    margin-left: 400px;
+    
+  }
+  
+  .article-card-half-3 .article-title {
+    font-size: 24px; 
+    color:#333;
+    margin-bottom: 10px;
+  }
+  
+  .article-card-half-3 .article-meta {
+    margin-bottom: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 12px;
+    color: #FF0E47;
+  }
+  
+  .article-card-half-3 .article-image {
+    max-width: 100%;
+    width: 321px;
+    height: 170px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half-3 .article-content {
+    font-size: 14px; 
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half-3 .read-more {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 15px;
+    color:#FF0E47;
+    text-decoration: none;
+  }
+  
+  .article-card-half-3 .read-more:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+  .article-card-half-4 {
+    max-width: 400px; 
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    top: 2100px;
+    margin-left: 768px;
+    
+  }
+  
+  .article-card-half-4 .article-title {
+    font-size: 24px; 
+    color:#333;
+    margin-bottom: 10px;
+  }
+  
+  .article-card-half-4 .article-meta {
+    margin-bottom: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 12px;
+    color: #FF0E47;
+  }
+  
+  .article-card-half-4 .article-image {
+    max-width: 100%;
+    width: 321px;
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half-4 .article-content {
+    font-size: 14px; 
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .article-card-half-4 .read-more {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 15px;
+    color:#FF0E47;
+    text-decoration: none;
+  }
+  
+  .article-card-half-4 .read-more:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,93 @@
+.header {
+    position: relative;
+    height: 80vh;
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .header-content {
+    color: white;
+    z-index: 2;
+  }
+  
+  .header-logo {
+    width: 170px;
+    position: relative;
+    bottom: 120px;
+    margin-right: 900px;
+  }
+  
+  .header-button {
+    background-color: #ff0040;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: -25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 50px;
+    margin-right: 1000px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none solid rgb(255, 255, 255);
+    font-size: 16.5px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    word-spacing: 0px;
+
+
+  }
+
+  .welcomemessage{
+    font-family: Montserrat, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 112px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0px;
+    height: auto;
+    width: auto;
+    
+  }
+
+  .italictext{
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 24px;
+    text-decoration: none solid ;
+    text-align: center;
+    word-spacing: 0px;
+    height: auto;
+    width: auto;
+    margin-top: -50px;
+   
+    
+  }
