@@ -1,77 +1,69 @@
 .footer {
-    background-color: #000;
-    color: #fff;
-    padding: 120px 0; 
-    text-align: center;
-    position: relative;
-    bottom: -700px;
-  }
-  
-  .footer-columns {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .footer-section {
-    flex: 1;
-    margin: 0 20px;
-    text-align: left;
-  }
-  
-  .footer-section h2 {
-    font-size: 21px;
-    margin-bottom: 20px; 
-    text-transform: uppercase;
-    text-align: center;
-    font-family: montserrat, sans-serif;
-  }
-  
-  .footer-section p {
-    font-size: 17px;
-    line-height: 1.8; 
-    text-align: center;
-    font-family: "Libre Franklin", sans-serif;
-  }
-  
-  .footer-copyright {
-    margin-top: 50px; 
-    font-size: 17px;
-    color: #ccc;
-    position: absolute;
-    bottom: 50px;
-    left: 400px;
-  }
-  
-  .social-icons a {
-    margin: 0 10px;
-    color: #fff;
-    font-size: 30px;
-    text-decoration: none;
-    position: relative;
-    left: 90px;
-    top: 30px;
-  }
-  
-  .footer-links {
-    margin-top: 30px; 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; 
-    position: absolute;
-    text-align: center;
-    font-family: "Libre Franklin", sans-serif;
-    left: 1200px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin-top: 6rem;
+  padding: 5rem;
+}
+.section1 {
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+}
 
+.section2 {
+  border-top: 15px;
+  border-color: #fff;
+  border-radius: 50%;
+}
+.footer-columns {
+  display: flex;
+  flex-direction: column;
+}
 
-  }
-  
-  .footer-links a {
-    color: #ccc;
-    text-decoration: none;
-    font-size: 17px;
-  }
+.footer-section {
+  flex: 1;
+  text-align: left;
+}
 
-  
+.footer-section h2 {
+  font-size: 21px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+}
+
+.footer-section p {
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.footer-copyright {
+  font-size: 17px;
+  color: #ccc;
+  position: absolute;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 17px;
+}
